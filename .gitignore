@@ -1,0 +1,60 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated raw documents
+data/raw/
+
+# Generated pipeline artifacts
+data/bronze/
+data/silver/
+data/gold/
+data/quarantine/
+data/vector_store/
+
+# Local databases
+*.db
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+
+# Generated data files
+*.parquet
+*.npy
+*.npz
+
+# Pipeline reports and logs
+reports/
+logs/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
